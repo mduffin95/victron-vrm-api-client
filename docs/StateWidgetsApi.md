@@ -1,4 +1,4 @@
-# vrm-api-client.StateWidgetsApi
+# vrm_api_client.StateWidgetsApi
 
 All URIs are relative to *https://vrmapi.victronenergy.com/v2*
 
@@ -34,12 +34,12 @@ Retrieves battery external relay state changes for a state graph. If not given a
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.StateWidgetsApi()
+api_instance = vrm_api_client.StateWidgetsApi()
 x_authorization = NULL # object | The bearer token to use.
 id_site = NULL # object | Installation id
 instance = NULL # object | Instance for which to retrieve data, defaults to 0. (optional)
@@ -90,12 +90,12 @@ Retrieves battery monitor warnings and alarms data for a state graph. If not giv
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.StateWidgetsApi()
+api_instance = vrm_api_client.StateWidgetsApi()
 x_authorization = NULL # object | The bearer token to use.
 id_site = NULL # object | Installation id
 instance = NULL # object | Instance for which to retrieve data, defaults to 0. (optional)
@@ -146,12 +146,12 @@ Retrieves battery relay state changes for a state graph. If not given a timefram
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.StateWidgetsApi()
+api_instance = vrm_api_client.StateWidgetsApi()
 x_authorization = NULL # object | The bearer token to use.
 id_site = NULL # object | Installation id
 instance = NULL # object | Instance for which to retrieve data, defaults to 0. (optional)
@@ -202,12 +202,12 @@ Retrieves charger relay state changes for a state graph. If not given a timefram
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.StateWidgetsApi()
+api_instance = vrm_api_client.StateWidgetsApi()
 x_authorization = NULL # object | The bearer token to use.
 id_site = NULL # object | Installation id
 instance = NULL # object | Instance for which to retrieve data, defaults to 0. (optional)
@@ -258,12 +258,12 @@ Retrieves charger state changes for a state graph. If not given a timeframe, dat
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.StateWidgetsApi()
+api_instance = vrm_api_client.StateWidgetsApi()
 x_authorization = NULL # object | The bearer token to use.
 id_site = NULL # object | Installation id
 instance = NULL # object | Instance for which to retrieve data, defaults to 0. (optional)
@@ -314,12 +314,12 @@ Retrieves ESS battery life state changes for a state graph. If not given a timef
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.StateWidgetsApi()
+api_instance = vrm_api_client.StateWidgetsApi()
 x_authorization = NULL # object | The bearer token to use.
 id_site = NULL # object | Installation id
 instance = NULL # object | Instance for which to retrieve data, defaults to 0. (optional)
@@ -370,12 +370,12 @@ Retrieves fuel cell state changes for a state graph. If not given a timeframe, d
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.StateWidgetsApi()
+api_instance = vrm_api_client.StateWidgetsApi()
 x_authorization = NULL # object | The bearer token to use.
 id_site = NULL # object | Installation id
 instance = NULL # object | Instance for which to retrieve data, defaults to 0. (optional)
@@ -426,12 +426,12 @@ Retrieves gateway relay state changes for a state graph. If not given a timefram
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.StateWidgetsApi()
+api_instance = vrm_api_client.StateWidgetsApi()
 x_authorization = NULL # object | The bearer token to use.
 id_site = NULL # object | Installation id
 instance = NULL # object | Instance for which to retrieve data, defaults to 0. (optional)
@@ -482,12 +482,12 @@ Retrieves gateway relay two state changes for a state graph. If not given a time
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.StateWidgetsApi()
+api_instance = vrm_api_client.StateWidgetsApi()
 x_authorization = NULL # object | The bearer token to use.
 id_site = NULL # object | Installation id
 instance = NULL # object | Instance for which to retrieve data, defaults to 0. (optional)
@@ -538,12 +538,12 @@ Retrieves generator state changes for a state graph. If not given a timeframe, d
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.StateWidgetsApi()
+api_instance = vrm_api_client.StateWidgetsApi()
 x_authorization = NULL # object | The bearer token to use.
 id_site = NULL # object | Installation id
 instance = NULL # object | Instance for which to retrieve data, defaults to 0. (optional)
@@ -594,12 +594,12 @@ Retrieves input state changes for a state graph. If not given a timeframe, data 
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.StateWidgetsApi()
+api_instance = vrm_api_client.StateWidgetsApi()
 x_authorization = NULL # object | The bearer token to use.
 id_site = NULL # object | Installation id
 instance = NULL # object | Instance for which to retrieve data, defaults to 0. (optional)
@@ -650,12 +650,12 @@ Retrieves inverter charger state changes for a state graph. If not given a timef
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.StateWidgetsApi()
+api_instance = vrm_api_client.StateWidgetsApi()
 x_authorization = NULL # object | The bearer token to use.
 id_site = NULL # object | Installation id
 instance = NULL # object | Instance for which to retrieve data, defaults to 0. (optional)
@@ -706,12 +706,12 @@ Retrieves inverter warning and alarm state changes for a state graph. If not giv
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.StateWidgetsApi()
+api_instance = vrm_api_client.StateWidgetsApi()
 x_authorization = NULL # object | The bearer token to use.
 id_site = NULL # object | Installation id
 instance = NULL # object | Instance for which to retrieve data, defaults to 0. (optional)
@@ -762,12 +762,12 @@ Retrieves inverter state changes for a state graph. If not given a timeframe, da
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.StateWidgetsApi()
+api_instance = vrm_api_client.StateWidgetsApi()
 x_authorization = NULL # object | The bearer token to use.
 id_site = NULL # object | Installation id
 instance = NULL # object | Instance for which to retrieve data, defaults to 0. (optional)
@@ -818,12 +818,12 @@ Retrieves MPPT state changes for a state graph. If not given a timeframe, data f
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.StateWidgetsApi()
+api_instance = vrm_api_client.StateWidgetsApi()
 x_authorization = NULL # object | The bearer token to use.
 id_site = NULL # object | Installation id
 instance = NULL # object | Instance for which to retrieve data, defaults to 0. (optional)
@@ -874,12 +874,12 @@ Retrieves solar charger relay state changes for a state graph. If not given a ti
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.StateWidgetsApi()
+api_instance = vrm_api_client.StateWidgetsApi()
 x_authorization = NULL # object | The bearer token to use.
 id_site = NULL # object | Installation id
 instance = NULL # object | Instance for which to retrieve data, defaults to 0. (optional)
@@ -930,12 +930,12 @@ Retrieves VE Bus state changes for a state graph. If not given a timeframe, data
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.StateWidgetsApi()
+api_instance = vrm_api_client.StateWidgetsApi()
 x_authorization = NULL # object | The bearer token to use.
 id_site = NULL # object | Installation id
 instance = NULL # object | Instance for which to retrieve data, defaults to 0. (optional)
@@ -986,12 +986,12 @@ Retrieves VE Bus warnings and alarms data for a state graph. If not given a time
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.StateWidgetsApi()
+api_instance = vrm_api_client.StateWidgetsApi()
 x_authorization = NULL # object | The bearer token to use.
 id_site = NULL # object | Installation id
 instance = NULL # object | Instance for which to retrieve data, defaults to 0. (optional)

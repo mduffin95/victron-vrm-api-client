@@ -1,4 +1,4 @@
-# vrm-api-client.DefaultApi
+# vrm_api_client.DefaultApi
 
 All URIs are relative to *https://vrmapi.victronenergy.com/v2*
 
@@ -19,13 +19,13 @@ Used to authenticate as a user to access authenticated routes. 2FA token must be
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.DefaultApi()
-body = vrm-api-client.AuthLoginBody() # AuthLoginBody | 
+api_instance = vrm_api_client.DefaultApi()
+body = vrm_api_client.AuthLoginBody() # AuthLoginBody | 
 
 try:
     # Log in using an e-mail and password
@@ -67,12 +67,12 @@ Used to authenticate as the demo account. The demo user has limited access to a 
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.DefaultApi()
+api_instance = vrm_api_client.DefaultApi()
 
 try:
     # Log in as the demo account
@@ -111,12 +111,12 @@ Used to log out a user. The token provided in the authorization header will be b
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.DefaultApi()
+api_instance = vrm_api_client.DefaultApi()
 x_authorization = NULL # object | The bearer token to use.
 
 try:

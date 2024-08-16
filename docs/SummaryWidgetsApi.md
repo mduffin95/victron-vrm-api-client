@@ -1,4 +1,4 @@
-# vrm-api-client.SummaryWidgetsApi
+# vrm_api_client.SummaryWidgetsApi
 
 All URIs are relative to *https://vrmapi.victronenergy.com/v2*
 
@@ -31,12 +31,12 @@ Retrieves battery summary data for an overview, grouped by data attribute.
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.SummaryWidgetsApi()
+api_instance = vrm_api_client.SummaryWidgetsApi()
 x_authorization = NULL # object | The bearer token to use.
 id_site = NULL # object | Installation id
 instance = NULL # object | Instance for which to retrieve data, defaults to 0. (optional)
@@ -83,12 +83,12 @@ Retrieves BMS diagnostics summary data for an overview, grouped by data attribut
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.SummaryWidgetsApi()
+api_instance = vrm_api_client.SummaryWidgetsApi()
 x_authorization = NULL # object | The bearer token to use.
 id_site = NULL # object | Installation id
 instance = NULL # object | Instance for which to retrieve data, defaults to 0. (optional)
@@ -135,12 +135,12 @@ Retrieves DC meter summary data for an overview, grouped by data attribute.
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.SummaryWidgetsApi()
+api_instance = vrm_api_client.SummaryWidgetsApi()
 x_authorization = NULL # object | The bearer token to use.
 id_site = NULL # object | Installation id
 instance = NULL # object | Instance for which to retrieve data, defaults to 0. (optional)
@@ -187,12 +187,12 @@ Retrieves EV charger summary data for an overview, grouped by data attribute.
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.SummaryWidgetsApi()
+api_instance = vrm_api_client.SummaryWidgetsApi()
 x_authorization = NULL # object | The bearer token to use.
 id_site = NULL # object | Installation id
 instance = NULL # object | Instance for which to retrieve data, defaults to 0. (optional)
@@ -239,12 +239,12 @@ Retrieves GlobalLink summary data for an overview, grouped by data attribute.
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.SummaryWidgetsApi()
+api_instance = vrm_api_client.SummaryWidgetsApi()
 x_authorization = NULL # object | The bearer token to use.
 id_site = NULL # object | Installation id
 instance = NULL # object | Instance for which to retrieve data, defaults to 0. (optional)
@@ -291,12 +291,12 @@ Retrieves historic summary data for an overview, grouped by data attribute.
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.SummaryWidgetsApi()
+api_instance = vrm_api_client.SummaryWidgetsApi()
 x_authorization = NULL # object | The bearer token to use.
 id_site = NULL # object | Installation id
 instance = NULL # object | Instance for which to retrieve data, defaults to 0. (optional)
@@ -343,12 +343,12 @@ Retrieves IO extender input and output summary data for an overview, grouped by 
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.SummaryWidgetsApi()
+api_instance = vrm_api_client.SummaryWidgetsApi()
 x_authorization = NULL # object | The bearer token to use.
 id_site = NULL # object | Installation id
 instance = NULL # object | Instance for which to retrieve data, defaults to 0. (optional)
@@ -395,12 +395,12 @@ Retrieves lithium BMS summary data for an overview, grouped by data attribute.
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.SummaryWidgetsApi()
+api_instance = vrm_api_client.SummaryWidgetsApi()
 x_authorization = NULL # object | The bearer token to use.
 id_site = NULL # object | Installation id
 instance = NULL # object | Instance for which to retrieve data, defaults to 0. (optional)
@@ -447,12 +447,12 @@ Retrieves meteorological summary data for an overview, grouped by data attribute
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.SummaryWidgetsApi()
+api_instance = vrm_api_client.SummaryWidgetsApi()
 x_authorization = NULL # object | The bearer token to use.
 id_site = NULL # object | Installation id
 instance = NULL # object | Instance for which to retrieve data, defaults to 0. (optional)
@@ -499,12 +499,12 @@ Retrieves motor summary data for an overview, grouped by data attribute.
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.SummaryWidgetsApi()
+api_instance = vrm_api_client.SummaryWidgetsApi()
 x_authorization = NULL # object | The bearer token to use.
 id_site = NULL # object | Installation id
 instance = NULL # object | Instance for which to retrieve data, defaults to 0. (optional)
@@ -551,12 +551,12 @@ Retrieves PV inverter summary data for an overview, grouped by data attribute.
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.SummaryWidgetsApi()
+api_instance = vrm_api_client.SummaryWidgetsApi()
 x_authorization = NULL # object | The bearer token to use.
 id_site = NULL # object | Installation id
 instance = NULL # object | Instance for which to retrieve data, defaults to 0. (optional)
@@ -603,12 +603,12 @@ Retrieves solar charger summary data for an overview, grouped by data attribute.
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.SummaryWidgetsApi()
+api_instance = vrm_api_client.SummaryWidgetsApi()
 x_authorization = NULL # object | The bearer token to use.
 id_site = NULL # object | Installation id
 instance = NULL # object | Instance for which to retrieve data, defaults to 0. (optional)
@@ -655,12 +655,12 @@ Retrieves system overview summary data for an overview, grouped by data attribut
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.SummaryWidgetsApi()
+api_instance = vrm_api_client.SummaryWidgetsApi()
 x_authorization = NULL # object | The bearer token to use.
 id_site = NULL # object | Installation id
 instance = NULL # object | Instance for which to retrieve data, defaults to 0. (optional)
@@ -707,12 +707,12 @@ Retrieves tank summary data for an overview, grouped by data attribute.
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.SummaryWidgetsApi()
+api_instance = vrm_api_client.SummaryWidgetsApi()
 x_authorization = NULL # object | The bearer token to use.
 id_site = NULL # object | Installation id
 instance = NULL # object | Instance for which to retrieve data, defaults to 0. (optional)
@@ -759,12 +759,12 @@ Retrieves temperature summary data for an overview, grouped by data attribute.
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.SummaryWidgetsApi()
+api_instance = vrm_api_client.SummaryWidgetsApi()
 x_authorization = NULL # object | The bearer token to use.
 id_site = NULL # object | Installation id
 instance = NULL # object | Instance for which to retrieve data, defaults to 0. (optional)

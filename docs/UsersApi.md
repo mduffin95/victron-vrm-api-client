@@ -1,4 +1,4 @@
-# vrm-api-client.UsersApi
+# vrm_api_client.UsersApi
 
 All URIs are relative to *https://vrmapi.victronenergy.com/v2*
 
@@ -23,13 +23,13 @@ Users can create personal access tokens for usage with external services. These 
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.UsersApi()
-body = vrm-api-client.AccesstokensCreateBody() # AccesstokensCreateBody | 
+api_instance = vrm_api_client.UsersApi()
+body = vrm_api_client.AccesstokensCreateBody() # AccesstokensCreateBody | 
 x_authorization = NULL # object | The bearer token to use.
 id_user = NULL # object | User id.
 
@@ -75,12 +75,12 @@ Retrieves a list of all access token details for this user, excluding the actual
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.UsersApi()
+api_instance = vrm_api_client.UsersApi()
 x_authorization = NULL # object | The bearer token to use.
 id_user = NULL # object | User id.
 
@@ -125,12 +125,12 @@ Revokes one or more personal access token for a user.
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.UsersApi()
+api_instance = vrm_api_client.UsersApi()
 x_authorization = NULL # object | The bearer token to use.
 id_user = NULL # object | User id.
 id_access_token = NULL # object | Access token to revoke, or wildcard '*' to revoke all.
@@ -177,13 +177,13 @@ Adds a new site to the user. An email will be sent when the procedure is done.
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.UsersApi()
-body = vrm-api-client.IdUserAddsiteBody() # IdUserAddsiteBody | 
+api_instance = vrm_api_client.UsersApi()
+body = vrm_api_client.IdUserAddsiteBody() # IdUserAddsiteBody | 
 x_authorization = NULL # object | The bearer token to use.
 
 try:
@@ -227,13 +227,13 @@ Retrieves the site id from user's installations given site identifier. Admins ca
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.UsersApi()
-body = vrm-api-client.IdUserGetsiteidBody() # IdUserGetsiteidBody | 
+api_instance = vrm_api_client.UsersApi()
+body = vrm_api_client.IdUserGetsiteidBody() # IdUserGetsiteidBody | 
 x_authorization = NULL # object | The bearer token to use.
 
 try:
@@ -277,12 +277,12 @@ Retrieves a list of installations to which the user is connected. Normal users c
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.UsersApi()
+api_instance = vrm_api_client.UsersApi()
 x_authorization = NULL # object | The bearer token to use.
 id_user = NULL # object | User id.
 extended = NULL # object | If 1, include all optional response values. (optional)
@@ -331,12 +331,12 @@ Retrieves id, name, email and country of the user that is currently logged in
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.UsersApi()
+api_instance = vrm_api_client.UsersApi()
 x_authorization = NULL # object | The bearer token to use.
 
 try:

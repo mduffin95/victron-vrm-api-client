@@ -1,4 +1,4 @@
-# vrm-api-client.InstallationsApi
+# vrm_api_client.InstallationsApi
 
 All URIs are relative to *https://vrmapi.victronenergy.com/v2*
 
@@ -32,13 +32,13 @@ Deletes an alarm already linked to an installation.
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.InstallationsApi()
-body = vrm-api-client.IdSiteAlarmsBody2() # IdSiteAlarmsBody2 | 
+api_instance = vrm_api_client.InstallationsApi()
+body = vrm_api_client.IdSiteAlarmsBody2() # IdSiteAlarmsBody2 | 
 x_authorization = NULL # object | The bearer token to use.
 id_site = NULL # object | Installation ID
 
@@ -84,12 +84,12 @@ Gets all information about alarms for a specific installation. Next to that, it 
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.InstallationsApi()
+api_instance = vrm_api_client.InstallationsApi()
 x_authorization = NULL # object | The bearer token to use.
 id_site = NULL # object | Installation ID
 
@@ -134,13 +134,13 @@ Adds an alarm to an installation. Note that there are two different types of ala
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.InstallationsApi()
-body = vrm-api-client.IdSiteAlarmsBody1() # IdSiteAlarmsBody1 | 
+api_instance = vrm_api_client.InstallationsApi()
+body = vrm_api_client.IdSiteAlarmsBody1() # IdSiteAlarmsBody1 | 
 x_authorization = NULL # object | The bearer token to use.
 id_site = NULL # object | Installation ID
 
@@ -186,13 +186,13 @@ Edits an alarm already linked to an installation. Note that there are two differ
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.InstallationsApi()
-body = vrm-api-client.IdSiteAlarmsBody() # IdSiteAlarmsBody | 
+api_instance = vrm_api_client.InstallationsApi()
+body = vrm_api_client.IdSiteAlarmsBody() # IdSiteAlarmsBody | 
 x_authorization = NULL # object | The bearer token to use.
 id_site = NULL # object | Installation ID
 
@@ -236,12 +236,12 @@ Dynamic ESS configuration
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.InstallationsApi()
+api_instance = vrm_api_client.InstallationsApi()
 id = NULL # object | The ID of the installation
 x_authorization = NULL # object | The bearer token to use.
 
@@ -284,15 +284,15 @@ Dynamic ESS configuration
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.InstallationsApi()
+api_instance = vrm_api_client.InstallationsApi()
 x_authorization = NULL # object | The bearer token to use.
 id = NULL # object | The ID of the installation
-body = vrm-api-client.IdSiteDynamicesssettingsBody() # IdSiteDynamicesssettingsBody |  (optional)
+body = vrm_api_client.IdSiteDynamicesssettingsBody() # IdSiteDynamicesssettingsBody |  (optional)
 
 try:
     # Dynamic ESS configuration
@@ -336,13 +336,13 @@ Sends an invitation to a user to gain access to a specific installation.
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.InstallationsApi()
-body = vrm-api-client.IdSiteInviteBody() # IdSiteInviteBody | 
+api_instance = vrm_api_client.InstallationsApi()
+body = vrm_api_client.IdSiteInviteBody() # IdSiteInviteBody | 
 x_authorization = NULL # object | The bearer token to use.
 id_site = NULL # object | Installation ID
 
@@ -388,13 +388,13 @@ Clears alarms and marks them as cleared by the user in Event Logs.
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.InstallationsApi()
-body = vrm-api-client.IdSiteClearalarmBody() # IdSiteClearalarmBody | 
+api_instance = vrm_api_client.InstallationsApi()
+body = vrm_api_client.IdSiteClearalarmBody() # IdSiteClearalarmBody | 
 x_authorization = NULL # object | The bearer token to use.
 id_site = NULL # object | ID of the installation.
 
@@ -440,12 +440,12 @@ Retrieves a base64 encoded string containing the specified installation data, in
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.InstallationsApi()
+api_instance = vrm_api_client.InstallationsApi()
 x_authorization = NULL # object | The bearer token to use.
 id_site = NULL # object | Installation id
 start = NULL # object | Timestamp from which to fetch data, defaults to one day ago. (optional)
@@ -502,12 +502,12 @@ Retrieves log data for an installation. This endpoint is only accessible to user
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.InstallationsApi()
+api_instance = vrm_api_client.InstallationsApi()
 x_authorization = NULL # object | The bearer token to use.
 id_site = NULL # object | Installation id
 count = NULL # object | How many records to fetch, 100 if not specified. (optional)
@@ -556,12 +556,12 @@ Retrieves GPS tracks for an installation as a KML file.
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.InstallationsApi()
+api_instance = vrm_api_client.InstallationsApi()
 x_authorization = NULL # object | The bearer token to use.
 id_site = NULL # object | Installation id
 start = NULL # object | Timestamp from which to fetch data.
@@ -609,12 +609,12 @@ Retrieves installation stats grouped by the last year, month, week and day. If t
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.InstallationsApi()
+api_instance = vrm_api_client.InstallationsApi()
 x_authorization = NULL # object | The bearer token to use.
 id_site = NULL # object | Installation id
 type = NULL # object | Type of data to fetch, defaults to live_feed. If set to custom, the attributeCodes[] parameter must be provided. (optional)
@@ -663,15 +663,15 @@ Allows the user to modify settings related to a specific installation identified
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.InstallationsApi()
+api_instance = vrm_api_client.InstallationsApi()
 x_authorization = NULL # object | The bearer token to use.
 id = NULL # object | The ID of the installation
-body = vrm-api-client.IdSiteSettingsBody() # IdSiteSettingsBody |  (optional)
+body = vrm_api_client.IdSiteSettingsBody() # IdSiteSettingsBody |  (optional)
 
 try:
     # Update settings for a specific installation
@@ -715,12 +715,12 @@ Retrieves installation stats for the specified period, or one day if none specif
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.InstallationsApi()
+api_instance = vrm_api_client.InstallationsApi()
 x_authorization = NULL # object | The bearer token to use.
 id_site = NULL # object | Installation id
 start = NULL # object | Timestamp from which to fetch data, defaults to one day ago. (optional)
@@ -777,12 +777,12 @@ Retrieves a list of devices to which are connected to this installation. This en
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.InstallationsApi()
+api_instance = vrm_api_client.InstallationsApi()
 x_authorization = NULL # object | The bearer token to use.
 id_site = NULL # object | Installation id
 
@@ -827,12 +827,12 @@ Tags for an installation.
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.InstallationsApi()
+api_instance = vrm_api_client.InstallationsApi()
 x_authorization = NULL # object | The bearer token to use.
 id_site = NULL # object | Installation id
 

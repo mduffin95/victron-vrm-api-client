@@ -1,4 +1,4 @@
-# vrm-api-client.GeneralWidgetsApi
+# vrm_api_client.GeneralWidgetsApi
 
 All URIs are relative to *https://vrmapi.victronenergy.com/v2*
 
@@ -19,12 +19,12 @@ Retrieves GPS data for the specified installation, used in the GPS widget.
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.GeneralWidgetsApi()
+api_instance = vrm_api_client.GeneralWidgetsApi()
 x_authorization = NULL # object | The bearer token to use.
 id_site = NULL # object | Installation id
 instance = NULL # object | Instance for which to retrieve data, defaults to 0. (optional)
@@ -71,12 +71,12 @@ Retrieves data points for a graph for the given installation and data attributes
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.GeneralWidgetsApi()
+api_instance = vrm_api_client.GeneralWidgetsApi()
 x_authorization = NULL # object | The bearer token to use.
 id_site = NULL # object | Installation id
 attribute_codes = NULL # object | Attribute codes for which to retrieve series, repeated for each attribute. (optional)
@@ -137,12 +137,12 @@ Retrieves hours of AC for an installation. If no timeframe is specified, data fr
 ```python
 from __future__ import print_function
 import time
-import vrm-api-client
-from vrm-api-client.rest import ApiException
+import vrm_api_client
+from vrm_api_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = vrm-api-client.GeneralWidgetsApi()
+api_instance = vrm_api_client.GeneralWidgetsApi()
 x_authorization = NULL # object | The bearer token to use.
 id_site = NULL # object | Installation id
 instance = NULL # object | Instance for which to retrieve data, defaults to 0. (optional)
